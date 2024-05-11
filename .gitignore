@@ -78,6 +78,7 @@ typings/
 # Next.js build output
 .next
 
+.parcel-cache
 # Nuxt.js build / generate output
 .nuxt
 dist
@@ -102,5 +103,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-.parcel-cache/

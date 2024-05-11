@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "webovio",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://an1skat.github.io/webovio",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /webovio/"
   },
   "repository": {
     "type": "git",

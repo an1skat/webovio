@@ -1,0 +1,14 @@
+@mixin transition($property) {
+  transition: #{$property} 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@mixin title($font-size, $font-weight, $line-height, $letter-spacing, $color, $text-transform) {
+  font-size: #{$font-size};
+  font-weight: #{$font-weight};
+  line-height: #{$line-height};
+  letter-spacing: #{$letter-spacing};
+  color: #{$color};
+  text-transform: #{$text-transform};
+}
+@mixin flex-basis($gap, $count-items) {
+  flex-basis: calc((100% - $gap * (#{$count-items} - 1)) / #{$count-items});
+}

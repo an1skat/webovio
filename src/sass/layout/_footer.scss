@@ -1,0 +1,127 @@
+.footer {
+  background-color: #4f553d;
+  padding-top: 310px;
+  padding-bottom: 30px;
+}
+.footer-contacts__list {
+  display: flex;
+  gap: 128px;
+  margin-bottom: 52px;
+}
+.footer-contacts__title {
+  margin-bottom: 22px;
+  color: #b6c197;
+  line-height: 40px; /* 250% */
+}
+.footer-contacts__link {
+  color: $white;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px; /* 250% */
+  @include transition(color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.footer__line {
+  width: 100%;
+  height: 1px;
+  border: 0px solid #979797;
+  background: #5d6544;
+}
+.footer__wrapper {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer-services__wrapper {
+  margin-right: 70px;
+}
+.footer-services__list,
+.footer-help__list,
+.footer-company__list,
+.footer-social__subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 21px;
+  margin-bottom: 22px;
+  color: #b6c197;
+  line-height: 40px; /* 250% */
+}
+.footer-services__title,
+.footer-help__title,
+.footer-company__title,
+.footer-social__title {
+  color: $white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 38px; /* 237.5% */
+  text-transform: uppercase;
+}
+.footer-help__wrapper {
+  margin-right: 100px;
+}
+.footer-company__wrapper {
+  margin-right: 124px;
+}
+.footer-social__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.footer-social__subtitle {
+  line-height: 26px;
+}
+.footer-social__mail {
+  color: $white;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px; /* 250% */
+  @include transition(color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.footer-social__link {
+  display: flex;
+  width: 33px;
+  height: 33px;
+  align-items: center;
+  justify-content: center;
+  background-color: #444a34;
+  border-radius: 50%;
+  @include transition(background-color);
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+  &:hover .footer-social__svg,
+  &:focus .footer-social__svg {
+    fill: $white;
+  }
+}
+.footer-social__list {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 10px;
+}
+.footer-social__svg {
+  fill: #4f553d;
+  @include transition(fill);
+}
+.footer-copyright__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+.footer__copyright {
+  margin-right: 26px;
+  color: #b5c096;
+  font-size: 14px;
+  line-height: normal;
+}

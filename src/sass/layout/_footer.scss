@@ -2,6 +2,7 @@
   background-color: #4f553d;
   padding-top: 310px;
   padding-bottom: 30px;
+  line-height: 40px;
 }
 .footer-contacts__list {
   display: flex;
@@ -11,13 +12,12 @@
 .footer-contacts__title {
   margin-bottom: 22px;
   color: #b6c197;
-  line-height: 40px; /* 250% */
+  font-style: normal;
 }
 .footer-contacts__link {
   color: $white;
   font-weight: 700;
   font-style: normal;
-  line-height: 40px; /* 250% */
   @include transition(color);
   &:hover,
   &:focus {
@@ -38,9 +38,9 @@
 .footer-services__wrapper {
   margin-right: 70px;
 }
-.footer-services__list,
-.footer-help__list,
-.footer-company__list,
+.footer-services__link,
+.footer-help__link,
+.footer-company__link,
 .footer-social__subtitle {
   display: flex;
   flex-direction: column;
@@ -48,7 +48,11 @@
   margin-top: 21px;
   margin-bottom: 22px;
   color: #b6c197;
-  line-height: 40px; /* 250% */
+  @include transition(color);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 .footer-services__title,
 .footer-help__title,
@@ -57,8 +61,8 @@
   color: $white;
   font-size: 16px;
   font-weight: 600;
-  line-height: 38px; /* 237.5% */
   text-transform: uppercase;
+  line-height: 38px;
 }
 .footer-help__wrapper {
   margin-right: 100px;
@@ -79,7 +83,6 @@
   font-size: 24px;
   font-weight: 700;
   font-style: normal;
-  line-height: 40px; /* 250% */
   @include transition(color);
   &:hover,
   &:focus {

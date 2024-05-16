@@ -2,7 +2,10 @@
   background-color: #4f553d;
   padding-top: 310px;
   padding-bottom: 30px;
-  line-height: 40px;
+  line-height: 20px;
+  background-image: url('/src/images/footer/footer-background_img.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .footer-contacts__list {
   display: flex;
@@ -40,8 +43,7 @@
 }
 .footer-services__link,
 .footer-help__link,
-.footer-company__link,
-.footer-social__subtitle {
+.footer-company__link {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -68,15 +70,19 @@
   margin-right: 100px;
 }
 .footer-company__wrapper {
-  margin-right: 124px;
+  margin-right: 96px;
 }
 .footer-social__wrapper {
   display: flex;
   flex-direction: column;
   gap: 23px;
+  border-left: 1px solid #5D6544;
+  padding-left: 110px;
+  max-height: 210px;
 }
 .footer-social__subtitle {
   line-height: 26px;
+  color: #b6c197;
 }
 .footer-social__mail {
   color: $white;

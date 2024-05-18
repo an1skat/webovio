@@ -4,7 +4,12 @@
   .container {
     display: flex;
     align-items: center;
+    gap: 133px;
+    justify-content: center;
   }
+}
+.projects__title {
+  line-height: normal;
 }
 .projects-list {
   margin-top: 110px;

@@ -1,0 +1,32 @@
+.arrow__link-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 9.5px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    .arrow__link {
+      color: $accent-color;
+    }
+    .arrow__icon {
+      stroke: $accent-color;
+      fill: $accent-color;
+    }
+  }
+}
+.arrow__link {
+  color: $unactive-color;
+  font-size: 16px;
+  font-weight: 700;
+  @include transition(color);
+  position: relative;
+}
+.arrow__icon {
+  stroke: $unactive-color;
+  fill: $unactive-color;
+  position: relative;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

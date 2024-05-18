@@ -6,13 +6,6 @@
     align-items: center;
   }
 }
-.projects__title {
-  @include title(36px, 700, normal, normal, $title-color, none);
-}
-.projects__text,
-.projects__list-text {
-  @include title(16px, 400, 26px, normal, $text-color, none);
-}
 .projects-list {
   margin-top: 110px;
   display: flex;
@@ -43,46 +36,18 @@
   height: 550px;
 }
 .projects__list-title {
-  @include title(36px, 700, 48px, normal, $title-color, none);
+  line-height: 48px;
 }
 .projects__list-text {
   margin-top: 24px;
 }
 .projects__link-container {
-  display: flex;
-  align-items: center;
-  position: relative;
-  right: 9.5px;
   margin-top: 90px;
-
   &:last-child {
     margin-top: 116px;
   }
+}
 
-  &:hover,
-  &:focus {
-    cursor: pointer;
-    .projects__link {
-      color: $accent-color;
-    }
-    .projects__icon {
-      stroke: $accent-color;
-      fill: $accent-color;
-    }
-  }
-}
-.projects__link {
-  @include title(16px, 700, normal, normal, $unactive-color, none);
-  @include transition(color);
-  position: relative;
-}
-.projects__icon {
-  stroke: $unactive-color;
-  fill: $unactive-color;
-  position: relative;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .comment {
   position: absolute;
   background-color: #fff;
@@ -92,7 +57,7 @@
   border-radius: 8px;
 }
 .comment__text {
-  @include title(16px, 400, 26px, normal, $title-color, none);
+  color: $title-color;
   font-style: italic;
 }
 .comment__container {
@@ -106,8 +71,12 @@
   height: 46px;
 }
 .comment__name {
-  @include title(16px, 700, normal, normal, $title-color, none);
+  color: $title-color;
+  font-size: 16px;
+  font-weight: 700;
 }
 .comment__profession {
-  @include title(14px, 400, normal, normal, #152934, none);
+  color: #152934;
+  font-size: 14px;
+  font-weight: 400;
 }

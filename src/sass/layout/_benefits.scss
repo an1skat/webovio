@@ -1,8 +1,6 @@
 .benefits {
   padding-top: 300px;
-}
-.benefits__title {
-  @include title(36px, 700, 46px, normal, $title-color, none);
+  padding-bottom: 322px;
 }
 .benefits-list {
   margin-top: 60px;
@@ -18,10 +16,17 @@
   height: 309px;
 }
 .benefits-list__title {
-  @include title(24px, 500, 43px, normal, $title-color, uppercase);
+  color: $title-color;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 43px;
+  text-transform: uppercase;
 }
 .benefits__text {
-  @include title(14px, 500, 26px, normal, $text-color, none);
+  color: $text-color;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
   height: 104px;
 }
 .benefits__link-container {
@@ -33,7 +38,7 @@
   &:hover,
   &:focus {
     cursor: pointer;
-    .benefits__link {
+    .arrow__link {
       color: $accent-color;
     }
     .benefits__icon {
@@ -41,11 +46,6 @@
       fill: $accent-color;
     }
   }
-}
-.benefits__link {
-  @include title(16px, 700, normal, normal, $unactive-color, none);
-  @include transition(color);
-  position: relative;
 }
 .benefits__icon {
   stroke: $unactive-color;

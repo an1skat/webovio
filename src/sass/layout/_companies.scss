@@ -1,0 +1,13 @@
+.companies {
+    padding-top: 60px;
+    padding-bottom: 54px;
+    background-color: #FFFFFF;
+    ;
+    position: absolute;
+    right: 0;
+}
+.companies__list {
+    display: flex;
+    gap: 66px;
+	flex-wrap: nowrap;
+}

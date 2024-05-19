@@ -1,0 +1,20 @@
+.quote__title {
+
+    color: $title-color;
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 74px;
+margin-bottom: 50px;
+}
+.quote__subtitle {
+    color: $unactive-color;
+
+font-family: FontAwesome;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}

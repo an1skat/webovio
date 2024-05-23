@@ -1,0 +1,20 @@
+.header {
+    position: absolute;
+    background-color: transparent;
+    padding-top: 29px;
+    padding-left: 180px;
+}
+.logo__wrapper {
+    display: flex;
+    gap: 814px;
+}
+.header__item-link {
+    display: flex;
+    gap: 11px;
+}
+.header__item-btn {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

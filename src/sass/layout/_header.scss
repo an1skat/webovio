@@ -1,12 +1,13 @@
 .header {
     position: absolute;
     background-color: transparent;
-    padding-top: 29px;
-    padding-left: 180px;
-}
-.logo__wrapper {
-    display: flex;
-    gap: 814px;
+    top: 29px;
+    left: 50%;
+    transform: translateX(-50%);
+    & .container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 .header__item-link {
     display: flex;
@@ -17,4 +18,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    &:hover {
+        opacity: 0.8;
+    }
 }

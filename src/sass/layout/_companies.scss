@@ -1,17 +1,18 @@
 .companies {
-  position: absolute;
-  right: 0;
-  margin-top: -100px;
+  position: relative;
 }
 .companies__list {
   display: flex;
+  position: absolute;
   gap: 66px;
   flex-wrap: nowrap;
   box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
   border-radius: 2px;
-padding-top: 60px;
-padding-bottom: 54px;
-padding-left: 65px;
-padding-right: 166px;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  padding-left: 65px;
+  padding-right: 166px;
+  right: 0;
+  top: -100px;
 }

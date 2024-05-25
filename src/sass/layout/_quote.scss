@@ -2,7 +2,7 @@
     width:  1275px ;
     height: 302px;
     background-color: $white;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     position: absolute;
    
 }
@@ -17,6 +17,8 @@ font-weight: 700;
 line-height: 74px;
 margin-bottom: 50px;
 align-items: center;
+margin-left: 164px;
+margin-right: 289px;
 }
 .quote__subtitle {
     color: $unactive-color;
@@ -27,4 +29,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
+margin-top: 50px;
+margin-left: 164px;
+margin-right: 949px;
+margin-bottom: 70px;
+flex-wrap: nowrap;
 }

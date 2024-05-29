@@ -1,12 +1,17 @@
 .quote {
-    width:  1275px ;
-    height: 302px;
-    background-color: $white;
-    margin-bottom: 120px;
-    position: absolute;
+  
+ 
+   position: relative;
    
 }
-
+.quote__wrapper {
+ position: absolute;
+  background-color: $white;
+  top: -172px;
+  padding-top: 70px;
+  width: 1275px;
+  
+}
 .quote__title {
 display: flex;
     color: $title-color;
@@ -16,9 +21,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 74px;
 margin-bottom: 50px;
-align-items: center;
 margin-left: 164px;
-margin-right: 289px;
+align-items: center;
+
 }
 .quote__subtitle {
     color: $unactive-color;
@@ -29,9 +34,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
-margin-top: 50px;
 margin-left: 164px;
-margin-right: 949px;
 margin-bottom: 70px;
-flex-wrap: nowrap;
+
 }

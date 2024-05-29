@@ -1,6 +1,6 @@
 .quote {
   
-   
+ 
    position: relative;
    
 }
@@ -9,6 +9,7 @@
   background-color: $white;
   top: -172px;
   padding-top: 70px;
+  width: 1275px;
   
 }
 .quote__title {
@@ -20,6 +21,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 74px;
 margin-bottom: 50px;
+margin-left: 164px;
 align-items: center;
 
 }
@@ -32,6 +34,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
-
+margin-left: 164px;
+margin-bottom: 70px;
 
 }

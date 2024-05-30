@@ -1,0 +1,67 @@
+.team {
+    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+    padding-bottom: 150px;
+}
+.team__list {
+    display: flex;
+    margin-top: 200px;
+    gap: 160px;
+}
+.team__item {
+  width: 475px;
+}
+.team__text {
+font-weight: 400;
+font-size: 14px;
+color: rgba(77, 83, 60, 0.9);
+padding-bottom: 29px;
+}
+.team__technology {
+    background-color:  #FFD7231A;
+}
+.team__title {
+font-weight: 700;
+font-size: 36px;
+line-height: 128%;
+color: #4d533c;
+padding-bottom: 35px;
+}
+.team__subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: rgba(33, 56, 66, 0.6);
+padding-bottom: 42px;
+}
+.founderceo__item {
+    width: 474px;
+    box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+background: #fff;
+padding-top: 120px;
+}
+.founderceo__subtitle {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 167%;
+    color: #4d533c;
+}
+.information__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information__image {
+    box-shadow: 20px 25px 43px 0 rgba(0, 0, 0, 0.18);
+    width: 90px;
+}
+.information__subtitle {
+font-weight: 700;
+font-size: 22px;
+color: #4d533c;
+}
+.information__text {
+font-weight: 400;
+font-size: 16px;
+color: #152934;
+}
